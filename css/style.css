@@ -139,3 +139,38 @@ body {
 #forecast span {
   color: var(--color-secondary);
 }
+
+#modal {
+  background-color: rgba(128, 128, 128, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal > div {
+  background: #fff;
+  width: 500px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+#modal span {
+  background-color: var(--color-error);
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#modal p {
+  margin-top: 40px;
+  color: var(--color-error);
+}
